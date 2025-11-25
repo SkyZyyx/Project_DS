@@ -72,6 +72,6 @@ print(f"Product C: {df['Product_C'].min()}-{df['Product_C'].max()} ✓")
 print(f"Product D: {df['Product_D'].min()}-{df['Product_D'].max()} ✓")
 
 print("\n" + "=" * 60)
-print("Done! ✓")
+print("Done! ")
 print("=" * 60)
 
