@@ -5,9 +5,9 @@ Phase 3: Enhance DataFrame with calculated metrics
 import pandas as pd
 import numpy as np
 
-print("=" * 60)
+
 print("Phase 3: Enhancing DataFrame")
-print("=" * 60)
+
 
 # Step 1: Load the data we created in Phase 2
 print("\n1. Loading initial.csv...")
@@ -79,15 +79,3 @@ print(df)
 print("\n10. Saving to Final.csv...")
 df.to_csv('data/Final.csv', index=False)
 print("Saved to data/Final.csv")
-
-print("\n" + "=" * 60)
-print("Phase 3 Complete!")
-print("=" * 60)
-print("\nNew columns added:")
-print("- Month")
-print("- Total_Sales")
-print("- Average_Sales")
-print("- Month_over_Month_Growth")
-print("- Quarter")
-print("- Max_Sales_Product")
-print("- Min_Sales_Product")

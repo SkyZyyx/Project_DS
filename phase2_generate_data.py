@@ -66,12 +66,10 @@ print("\n5. Data validation:")
 print(df[['Product_A', 'Product_B', 'Product_C', 'Product_D']].describe())
 
 print("\nRanges:")
-print(f"Product A: {df['Product_A'].min()}-{df['Product_A'].max()} ✓")
-print(f"Product B: {df['Product_B'].min()}-{df['Product_B'].max()} ✓")
-print(f"Product C: {df['Product_C'].min()}-{df['Product_C'].max()} ✓")
-print(f"Product D: {df['Product_D'].min()}-{df['Product_D'].max()} ✓")
+print(f"Product A: {df['Product_A'].min()}-{df['Product_A'].max()} ")
+print(f"Product B: {df['Product_B'].min()}-{df['Product_B'].max()} ")
+print(f"Product C: {df['Product_C'].min()}-{df['Product_C'].max()} ")
+print(f"Product D: {df['Product_D'].min()}-{df['Product_D'].max()} ")
 
-print("\n" + "=" * 60)
-print("Done! ")
-print("=" * 60)
+
 
