@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Ignore explanation files
+*.md
+pdf_content.txt
+PHASE*.md
+*.pdf
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
